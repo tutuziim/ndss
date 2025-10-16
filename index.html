@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NDS STORE</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body class="fade-in">
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <h1 class="logo">NDS STORE</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#" class="active"><i class="fa-solid fa-house"></i> Início</a></li>
+        <li><a href="#"><i class="fa-solid fa-shirt"></i> Vestuário</a></li>
+        <li><a href="#"><i class="fa-solid fa-shoe-prints"></i> Sneakers</a></li>
+        <li><a href="#"><i class="fa-solid fa-envelope"></i> Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== BUSCA ===== -->
+  <div class="search-container">
+    <input type="text" placeholder="Buscar produtos..." class="search-bar" />
+  </div>
+
+  <!-- ===== CONTEÚDO ===== -->
+  <main class="produtos-container" id="conteudo">
+    <!-- Tênis Louis Vuitton (Início) -->
+    <div class="produto-card">
+      <img src="imgs/tenis1.jpg" alt="Louis Vuitton Skate Sneaker Vermelho" class="produto-imagem" />
+      <h3>Louis Vuitton Skate Sneaker Vermelho</h3>
+      <p class="preco">R$ 6.499,90</p>
+    </div>
+
+    <div class="produto-card">
+      <img src="imgs/tenis2.jpg" alt="Louis Vuitton Skate Sneaker Azul" class="produto-imagem" />
+      <h3>Louis Vuitton Skate Sneaker Azul</h3>
+      <p class="preco">R$ 6.499,90</p>
+    </div>
+
+    <div class="produto-card">
+      <img src="imgs/tenis3.jpg" alt="Louis Vuitton Skate Sneaker Bege" class="produto-imagem" />
+      <h3>Louis Vuitton Skate Sneaker Bege</h3>
+      <p class="preco">R$ 6.499,90</p>
+    </div>
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <p>© 2025 NDS STORE - Todos os direitos reservados</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    // Fade-in inicial
+    document.addEventListener("DOMContentLoaded", () => {
+      document.body.classList.add("fade-in");
+    });
+
+    // Controle de seções e botões
+    const links = document.querySelectorAll(".nav-links a");
+    const produtos = document.querySelector(".produtos-container");
+    const titulo = document.querySelector(".logo");
+
+    links.forEach(link => {
+      link.addEventListener("click", e => {
+        e.preventDefault();
+
+        // Atualiza destaque do menu
+        links.forEach(l => l.classList.remove("active"));
+        link.classList.add("active");
+
+        const secao = link.textContent.trim();
+
+        document.body.classList.add("fade-out");
+
+        setTimeout(() => {
+          document.body.classList.remove("fade-out");
+          document.body.classList.add("fade-in");
+
+          // Troca de seções
+          if (secao === "Início") {
+            titulo.textContent = "NDS STORE";
+            produtos.innerHTML = `
+              <div class="produto-card">
+                <img src="imgs/tenis1.jpg" alt="Louis Vuitton Skate Sneaker Vermelho" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Vermelho</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>
+              <div class="produto-card">
+                <img src="imgs/tenis2.jpg" alt="Louis Vuitton Skate Sneaker Azul" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Azul</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>
+              <div class="produto-card">
+                <img src="imgs/tenis3.jpg" alt="Louis Vuitton Skate Sneaker Bege" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Bege</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>`;
+          } 
+          else if (secao === "Vestuário") {
+            titulo.textContent = "Coleção de Roupas 👕";
+            produtos.innerHTML = `
+              <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1618354691417-58e3163f1e5b?w=600" alt="Camiseta LV" class="produto-imagem" />
+                <h3>Camiseta Louis Vuitton Oversized</h3>
+                <p class="preco">R$ 2.299,90</p>
+              </div>
+              <div class="produto-card">
+                <img src="https://images.unsplash.com/photo-1622151834625-66296f3aa6aa?w=600" alt="Moletom LV" class="produto-imagem" />
+                <h3>Moletom LV Paris Limited</h3>
+                <p class="preco">R$ 4.599,90</p>
+              </div>`;
+          } 
+          else if (secao === "Sneakers") {
+            titulo.textContent = "Coleção Sneakers 👟";
+            produtos.innerHTML = `
+              <div class="produto-card">
+                <img src="imgs/tenis1.jpg" alt="Louis Vuitton Skate Sneaker Vermelho" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Vermelho</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>
+              <div class="produto-card">
+                <img src="imgs/tenis2.jpg" alt="Louis Vuitton Skate Sneaker Azul" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Azul</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>
+              <div class="produto-card">
+                <img src="imgs/tenis3.jpg" alt="Louis Vuitton Skate Sneaker Bege" class="produto-imagem" />
+                <h3>Louis Vuitton Skate Sneaker Bege</h3>
+                <p class="preco">R$ 6.499,90</p>
+              </div>`;
+          } 
+          else if (secao === "Contato") {
+            titulo.textContent = "Fale Conosco 📩";
+            produtos.innerHTML = `
+              <div class="contato">
+                <h2>Entre em contato</h2>
+                <p>Email: <a href="mailto:ndsstore@exemplo.com">ndsstore@exemplo.com</a></p>
+                <p>Instagram: <a href="#">@ndsstore</a></p>
+              </div>`;
+          }
+        }, 400);
+      });
+    });
+  </script>
+</body>
+</html>
