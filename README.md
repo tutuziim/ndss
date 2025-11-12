@@ -55,7 +55,7 @@ Melhorias sugeridas
 
 
 
- 🧩 2. Modularização do Código HTML  
+  2. Modularização do Código HTML  
 
 Componentes identificados  
 - Header  
