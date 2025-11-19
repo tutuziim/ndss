@@ -222,4 +222,113 @@ Classificação: Avançado (8 pts)
 Este projeto representa a aplicação prática dos conhecimentos adquiridos durante o curso, unindo design, código e identidade visual de uma marca real.  
 
  “O aprendizado prático de HTML, CSS e design responsivo neste projeto consolidou a base para a criação de sites modernos e funcionais.”  
-Arthur Kalleb de Oliveira Xavier
+Arthur Kalleb de Oliveira Xavier.
+
+
+
+
+
+Parte final do projeto com todas as suas devidas atualizaçôes.
+Projeto Integrador – Parte 3  
+
+Trabalho de front end | [Universidade Católica de Brasília ]
+
+
+
+Informações Gerais  
+Nome do Projeto: NDS STORE  
+Integrante: Arthur Kalleb de Oliveira Xavier (Desenvolvedor, Designer e Criador do Projeto )
+Data de Publicação:Novembro de 2025  
+
+
+
+Acesso ao Site  
+O site está publicado no GitHub Pages:  
+[https://tutuziim.github.io/ndss/](https://tutuziim.github.io/ndss/)  
+
+
+
+Objetivos do Projeto  
+- Criar um site para representar a NDS STORE online.  
+- Utilizar HTML5, CSS3 e JavaScript para construir uma experiência fluida e responsiva.  
+- Garantir boa experiência em diferentes dispositivos e navegadores.  
+- Documentar todo o processo de desenvolvimento, testes e reflexão.
+
+
+
+Wireframe  
+Link para o protótipo:  https://www.figma.com/design/7pdHG2cZ3PIZTq9TIFcAYm/projeto-integrador?node-id=0-1&t=HKjsB38mXiSVdwbN-1
+
+
+
+Otimizações Realizadas  
+- Imagens otimizadas com TinyPNG/Squoosh e convertidas para .webp quando possível.  
+- Implementado loading="lazy" nas imagens para melhorar o tempo de carregamento.  
+- CSS e JS minificados (style.min.css, main.min.js) para reduzir tamanho.  
+- Metadados (charset, viewport, descrição, keywords, autor) adicionados em cada página.  
+- Favicon configurado.
+
+
+
+Testes de Compatibilidade e Responsividade
+
+Navegadores testados  
+- Google Chrome  
+- Firefox  
+- Edge  
+- Safari (se aplicável)  
+
+Dispositivos / resoluções testadas  
+- 375×667 (iPhone SE)  
+- 390×844 (iPhone 12 Pro)  
+- 768×1024 (iPad)  
+- 1024×1366 (iPad Pro)  
+- 1280×720 (Desktop HD)  
+- 1920×1080 (Desktop Full HD)  
+
+Reflexões
+
+Reflexão Individual  
+Durante o desenvolvimento da NDS STORE, adquiri habilidades avançadas em HTML, CSS e JavaScript. Um dos maiores desafios foi garantir responsividade em múltiplos dispositivos, mas isso me permitiu aprender a testar sistematicamente e ajustar o design. Trabalhar sozinho exigiu disciplina e autonomia, e acredito que hoje tenho uma visão mais profissional sobre criação e publicação de sites.
+
+ Reflexão sobre o Projeto  
+Mesmo sendo um projeto individual, adotei uma metodologia de trabalho bem estruturada. A evolução do projeto foi clara: da primeira versão simples ao site otimizado e publicado. Os feedbacks recebidos levaram a ajustes importantes, como melhorias no layout e na usabilidade. Acredito que esse site tem potencial real para apoiar a NDS STORE e servirá como um excelente ponto no meu portfólio.
+
+
+
+Próximos Passos e Melhorias Futuras  
+Implementar carrinho de compras com JS  
+Conectar a uma API para listagem de produtos   
+Trabalhar na acessibilidade (WCAG)  
+Implementar animações com CSS  
+Estudar frameworks (ex: React) para futuras versões  
+
+Áreas para aprofundar:  
+- Acessibilidade  
+- SEO  
+- Performance Web  
+- JavaScript Avançado  
+- Componentização  
+
+
+Créditos  
+- Ícones: Flaticon  
+- Imagens: (especifique fontes, se usou imagens de terceiros)  
+- Ferramentas de otimização: TinyPNG, Squoosh  
+- Inspiração: sites de moda nacionais e internacionais  
+
+
+
+Checklist Final de Entrega  
+Site publicado e funcionando no GitHub Pages  
+Testes de navegadores concluídos  
+Testes de responsividade realizados Avaliações entre pares completas  
+Reflexão individual e de projeto escrita  
+Documentação no docs/ organizada  
+Código limpo e bem estruturado  
+Arquivos minificados e otimizados  
+
+
+
+Conclusão  
+Esse projeto representa o ápice do que desenvolvi durante o curso: um site real, funcional, otimizado e documentado. A NDS STORE agora tem presença online profissional — e esse trabalho serve como uma peça forte do meu portfólio.
