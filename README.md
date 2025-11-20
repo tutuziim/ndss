@@ -13,9 +13,7 @@ A NDS STORE é uma loja de roupas criada com o objetivo de levar marcas nacionai
 
 O site foi desenvolvido como uma plataforma online base para a loja, permitindo aos usuários visualizar produtos e conhecer a proposta da marca.  
 
-Público-alvo pessoas de todas as idades que valorizam o estilo e buscam roupas de qualidade.  
-
-Justificativa: o projeto foi desenvolvido para apoiar o crescimento da loja de um amigo, criando uma identidade digital moderna e acessível para aumentar o alcance e as vendas.  
+Público-alvo pessoas de todas as idades que valorizam o estilo e buscam roupas de qualidade.    
 
 
  Objetivos do Projeto  
