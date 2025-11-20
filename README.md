@@ -66,9 +66,6 @@ Os componentes estão padronizados, mas ainda não modularizados em arquivos sep
 
 Próximo passo separar o cabeçalho e rodapé em arquivos independentes e importá-los via JavaScript para reduzir a repetição.  
 
->Justificativa modularizar o código melhora a manutenção e garante consistência visual em todas as páginas.
-
-
 
  3. Consolidação de Acessibilidade  
 
